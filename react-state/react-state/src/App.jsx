@@ -2,6 +2,7 @@ import Counter from './Counter';
 import LikeButton from './LikeButton';
 import LudoBoard from './LudoBoard';
 import TodoApp from './TodoApp';
+import Lottery from './Lottery';
 import './App.css'
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         <LikeButton />
         <LudoBoard />
         <TodoApp />
+        <Lottery />
+
        </div>
   );
 }
